@@ -17,7 +17,7 @@ body {
 }
 
 .navbar{
-   background-color:brown;
+   background-color:rgb(223, 178, 178);
    display: flex;
    justify-content:space-around;
    align-items: center;
@@ -283,12 +283,13 @@ a {
 
 .resume-section1 {
    background-color: #f5f5f5;
-   
    padding: 30px;
    margin: 20px;
    border-radius: 8px;
    font-style: lucida 5px solid;
    margin-right: 750px;
+   
+
 }
 
 .resume-section1 h2,
@@ -547,7 +548,7 @@ p {
 
 /* FOOTER CSS */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
-
+/* 
 * {
    margin: 0;
    padding: 0;
@@ -560,7 +561,7 @@ body {
    display: block;
    align-items: center;
    justify-content: center;
-}
+} */
 
 .site-footer {
    background-color: #26272b;
@@ -1026,7 +1027,7 @@ body {
 }
 
 /* General Reset */
-* {
+/* * {
    margin: 0;
    padding: 0;
    box-sizing: border-box;
@@ -1037,7 +1038,7 @@ body {
    background-color: #f8f9ff;
    color: #333;
    line-height: 1.6;
-}
+} */
 
 /* Section Styling */
 .learn-to-code {
@@ -1187,3 +1188,6 @@ button:hover {
    border-radius: 7px;
    
 }
+/* 
+DATA ANYAYTIC */
+

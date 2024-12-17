@@ -562,7 +562,7 @@ body {
    align-items: center;
    justify-content: center;
 } */
-
+/* 
 .site-footer {
    background-color: #26272b;
    padding: 45px 0 20px;
@@ -570,6 +570,10 @@ body {
    line-height: 24px;
    color: #737373;
    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.row{
+   display: flex;
 }
 
 .site-footer hr {
@@ -705,7 +709,7 @@ body {
 
 .social-icons a.dribbble:hover {
    background-color: #ea4c89;
-}
+} */
 
 .mohit h2{
    text-align: center;
@@ -1275,7 +1279,7 @@ button:hover {
 .ch6 button{
    background-color: white;
    color: blue;
-   
+   font-weight: bold;
    padding: 10px 50px 10px 50px;
    text-align: center;
    
@@ -1284,3 +1288,49 @@ button:hover {
 .ch6 button:hover{
    background-color: red;
 }
+
+
+
+.college_1{
+   background-color:whitesmoke;
+   display: flex;
+   align-items: center;
+   text-align: left;
+   
+   
+   
+   
+}
+
+
+.ch8 h1{
+   color: brown;
+}
+
+
+.ch8 {
+   text-align: center;
+   margin-left: 200px;
+}
+
+
+
+.ch8 p{
+   color: black;
+   margin-bottom: 40px;
+}
+
+.ch8 button{
+   background-color:brown;
+   color: white;
+   font-weight: bold;
+   padding: 10px 80px 10px 80px;
+   text-align: center;
+   
+}
+
+.ch8 button:hover{
+   background-color: red;
+}
+
+

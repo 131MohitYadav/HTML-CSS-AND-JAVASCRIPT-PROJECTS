@@ -658,7 +658,7 @@ body {
 }
 
 .social-icons {
-   padding-right: 656px;
+   text-align:center;
    margin-bottom: 0;
    list-style: none;
 }
@@ -1332,5 +1332,174 @@ button:hover {
 .ch8 button:hover{
    background-color: red;
 }
+
+/* FOOTER CSS */
+
+
+
+.custom-footer {
+   display: flex;
+   justify-content: space-around;
+   background-color: #2c3039; /* Dark background color */
+   color: #ffffff; /* White text color */
+   padding: 20px 0;
+}
+
+.footer-section {
+   width: 20%;
+
+}
+
+.footer-section  h3 {
+   
+   
+   color: white;
+   border-bottom: 1px solid #888;
+padding-bottom: 5px;
+   font-size: 16px;
+}
+
+.footer-section ul {
+   list-style: none;
+   padding: 0;
+}
+
+.footer-section ul li {
+   margin: 8px 0;
+   font-size: 14px;
+}
+
+.footer-section ul li:hover {
+   color: #f7c14d; /* Highlight on hover */
+   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+   .custom-footer {
+       flex-direction: column;
+       align-items: center;
+   }
+
+   .footer-section {
+       width: 80%;
+       margin-bottom: 20px;
+       text-align: center;
+   }
+}
+
+/* Footer Container */
+
+
+.custom-footer {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: flex-start;
+   background-color: #2c3039;
+   color: #ffffff;
+   padding: 20px 0;
+}
+
+/* Footer Section Styling */
+
+.footer-divider {
+   width: 90%; /* Set the width of the line */
+   border: none;
+   border-top: 1px solid #555; /* Thin gray line */
+   margin: 20px auto; /* Centered with spacing */
+}
+
+.footer-section {
+   width: 20%;
+   margin-bottom: 20px;
+}
+
+.footer-section h3 {
+   border-bottom: 1px solid #888;
+   padding-bottom: 5px;
+   font-size: 16px;
+}
+
+.footer-section ul {
+   list-style: none;
+   padding: 0;
+}
+
+.footer-section ul li {
+   margin: 8px 0;
+   font-size: 14px;
+}
+
+.footer-section ul li:hover {
+   color: #f7c14d;
+   cursor: pointer;
+}
+
+/* Social Icons Container */
+.footer-social {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+}
+
+.footer-social .social-icon {
+   display: inline-block;
+   width: 40px;
+   height: 40px;
+   margin: 0 10px;
+   background-color: #444;
+   border-radius: 50%;
+   position: relative;
+   transition: background-color 0.3s ease;
+}
+
+.footer-social .social-icon::before {
+   content: '';
+   display: block;
+   width: 20px;
+   height: 20px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+/* Adding Specific Social Icons */
+.footer-social .facebook::before {
+   background-image: url('https://cdn-icons-png.flaticon.com/512/145/145802.png');
+}
+
+.footer-social .twitter::before {
+   background-image: url('https://cdn-icons-png.flaticon.com/512/145/145812.png');
+}
+
+.footer-social .linkedin::before {
+   background-image: url('https://cdn-icons-png.flaticon.com/512/145/145807.png');
+}
+
+.footer-social .instagram::before {
+   background-image: url('https://cdn-icons-png.flaticon.com/512/2111/2111463.png');
+}
+
+/* Hover Effect */
+.footer-social .social-icon:hover {
+   background-color: #f7c14d;
+}
+
+.practice{
+   display: flex;
+   justify-content: space-around;
+   
+   
+}
+
+.practice h2{
+   color: black;
+}
+
+
 
 

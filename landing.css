@@ -1492,13 +1492,131 @@ padding-bottom: 5px;
 .practice{
    display: flex;
    justify-content: space-around;
+
    
    
 }
 
 .practice h2{
    color: black;
+   font-weight: 100;
 }
+/* 
+.box_5{
+   background-color: yellow;
+   margin: 40px;
+   padding: auto;
+   border: 1px solid black;
+   border-radius: 15px;
+   border: none;
+   
+}
+.box_5 h1{
+   color: black;
+   margin: 20px;
+   
+}
+
+.box_6{
+   display: flex;
+   background-color: aquamarine;
+   margin: 30px;
+   padding: auto;
+   padding: auto;
+
+}
+ */
+ 
+ 
+
+.progress-container1 {
+   display: flex;
+  justify-content: space-around;
+  margin: 50px;
+  padding: 60px;
+  background-color: #f8cf91;
+  border-radius: 20px;
+  max-width: -600px;
+}
+
+.section-title1 {
+   font-weight: 300%;
+   font-size: 30px;
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Card Styling */
+.progress-card1 {
+  display: flex;
+  justify-content: space-around;
+  background-color: #333;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.card-icon1 {
+  width: 500px;
+  height: 50px;
+  background-color: #555;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+
+.card-title1 {
+   width: 500px;
+  font-size: 18px;
+  margin: 0;
+  color: #f8cf91;
+}
+
+.card-subtitle1 {
+   text-align: left;
+  font-size: 14px;
+  color: #aaa;
+  margin: 5px 0;
+}
+
+/* Progress Bar Styling */
+.progress-bar1 {
+  height: 8px;
+  background-color: #555;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 10px 0;
+}
+
+.progress-fill1 {
+  height: 100%;
+  background-color: #0f9d58;
+  border-radius: 5px 0 0 5px;
+}
+
+.progress-percentage1 {
+  font-size: 14px;
+  color: #aaa;
+  text-align: right;
+  margin: 0;
+}
+#head_10{
+   margin: 20px;
+   padding: 20px;
+font-size: 30px;
+font-weight: bold;
+text-align: left;
+}
+
+#par_10{
+   margin: 10px;
+   text-align: left;
+   font-weight: bold;
+}
+
+
 
 
 

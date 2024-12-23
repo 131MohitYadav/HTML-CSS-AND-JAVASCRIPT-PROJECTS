@@ -1637,6 +1637,17 @@ text-align: left;
 }
 
 
+#head_12 {
+   background-color: #4091b9;
+   color: white;
+    width: 100%;
+    height: auto;
+   padding: 22px;
+   border-radius: 15px 15px 0px 0px;
+   
+
+}
+
 .course-card1{
    background-color: #1f2d3d;
    width: 18%;

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Now - Multi-Step Form</title>
+    <link rel="stylesheet" href="landing.css">
+</head>
+<body>
+
+    <header>
+        <h1 class="header_50">Course Purchase</h1>
+    </header>
+
+    <div class="form-container_50">
+        <!-- Step Navigation (Hidden Radio Buttons) -->
+        <input type="radio" name="step_50" id="step1_50" checked>
+        <input type="radio" name="step_50" id="step2_50">
+        <input type="radio" name="step_50" id="step3_50">
+
+        <!-- Step Indicators -->
+        <div class="steps_50">
+            <label for="step1_50" class="step-label_50">1. User Details</label>
+            <label for="step2_50" class="step-label_50">2. Payment</label>
+            <label for="step3_50" class="step-label_50">3. Success</label>
+        </div>
+
+        <!-- Step 1: User Details -->
+        <div class="step-content_50" id="step1-content_50">
+            <h2 class="step-title_50">User Details</h2>
+            <form class="form_50">
+                <label class="label_50">Full Name:</label>
+                <input type="text" class="input_50" placeholder="Enter your name">
+                
+                <label class="label_50">Email:</label>
+                <input type="email" class="input_50" placeholder="Enter your email">
+                
+                <label class="label_50">Phone:</label>
+                <input type="text" class="input_50" placeholder="Enter your phone number">
+
+                <label for="step2_50" class="btn-next_50">Next</label>
+            </form>
+        </div>
+
+        <!-- Step 2: Payment Details -->
+        <div class="step-content_50" id="step2-content_50">
+            <h2 class="step-title_50">Payment</h2>
+            <form class="form_50">
+                <label class="label_50">Card Number:</label>
+                <input type="text" class="input_50" placeholder="1234 5678 9012 3456">
+
+                <label class="label_50">Expiration Date:</label>
+                <input type="text" class="input_50" placeholder="MM/YY">
+
+                <label class="label_50">CVV:</label>
+                <input type="text" class="input_50" placeholder="123">
+
+                <label for="step3_50" class="btn-next_50">Proceed to Success</label>
+            </form>
+        </div>
+
+        <!-- Step 3: Success -->
+        <div class="step-content_50" id="step3-content_50">
+            <h2 class="step-title_50">Order Successful!</h2>
+            <p class="success-text_50">Thank you for your purchase. You will receive a confirmation email shortly.</p>
+            <a href="home.html" class="btn-home_50">Back to Home</a>
+        </div>
+    </div>
+
+</body>
+</html>

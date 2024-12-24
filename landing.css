@@ -1908,5 +1908,112 @@ align-items: center;
  }
  
  
+
+ /* General Styling */
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color: #f9fafc;
+}
+
+.header_50 {
+   text-align: center;
+   margin: 20px 0;
+}
+
+.form-container_50 {
+   width: 60%;
+   margin: 0 auto;
+   background: #fff;
+   border-radius: 8px;
+   padding: 20px;
+   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Step Navigation */
+.steps_50 {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 30px;
+}
+
+.step-label_50 {
+   width: 30%;
+   text-align: center;
+   font-weight: bold;
+   color: #aaa;
+   cursor: pointer;
+}
+
+input[type="radio"] {
+   display: none;
+}
+
+/* Step Content */
+.step-content_50 {
+   display: none;
+}
+
+#step1_50:checked ~ .step-content_50#step1-content_50,
+#step2_50:checked ~ .step-content_50#step2-content_50,
+#step3_50:checked ~ .step-content_50#step3-content_50 {
+   display: block;
+}
+
+/* Form Styling */
+.form_50 {
+   display: flex;
+   flex-direction: column;
+}
+
+.label_50 {
+   margin: 10px 0 5px;
+   font-size: 14px;
+}
+
+.input_50 {
+   padding: 8px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   margin-bottom: 15px;
+}
+
+.btn-next_50 {
+   display: inline-block;
+   background-color: #4caf50;
+   color: #fff;
+   text-align: center;
+   padding: 10px 15px;
+   margin-top: 10px;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+/* Success Screen */
+.success-text_50 {
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+.btn-home_50 {
+   display: block;
+   text-align: center;
+   background-color: #2196f3;
+   color: #fff;
+   padding: 10px 15px;
+   border-radius: 5px;
+   text-decoration: none;
+   margin-top: 10px;
+}
+
+/* Active Step Styling */
+#step1_50:checked ~ .steps_50 .step-label_50:nth-child(1),
+#step2_50:checked ~ .steps_50 .step-label_50:nth-child(2),
+#step3_50:checked ~ .steps_50 .step-label_50:nth-child(3) {
+   color: #4caf50;
+   text-decoration: underline;
+}
+
  
 

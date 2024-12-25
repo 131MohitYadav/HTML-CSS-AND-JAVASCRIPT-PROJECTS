@@ -53,6 +53,55 @@ justify-content: center;
    display: block;
 }
 
+/* Responsive Navbar */
+@media (max-width: 768px) {
+   .navbar ul {
+       display: none;
+       flex-direction: column;
+       position: absolute;
+       top: 60px;
+       left: 0;
+       width: 100%;
+       background: #fff;
+   }
+
+   .navbar ul.active {
+       display: flex;
+   }
+
+   .navbar label {
+       display: block;
+   }
+}
+
+/* Responsive Hero Section */
+@media (max-width: 768px) {
+   .coding-journey {
+       flex-direction: column;
+   }
+
+   .cta-container input {
+       width: 80%;
+   }
+}
+
+/* Responsive Course Cards */
+@media (max-width: 768px) {
+   .course-card {
+       flex: 1 1 calc(50% - 20px);
+   }
+}
+
+@media (max-width: 480px) {
+   .course-card {
+       flex: 1 1 100%;
+   }
+}
+
+
+
+
+/* 
 /* @media screen and (max-width: 600px){
    .navbar label{
        display: block;
@@ -67,7 +116,8 @@ justify-content: center;
    .navbar ul li{
        padding: 12px;
    }
-} */
+/* } */
+/* 
 @media screen and (max-width: 400px) and (max-width:600px){
    .navbar label{
        display: block;
@@ -98,7 +148,7 @@ justify-content: center;
    .navbar ul li{
        padding: 12px;
    }
-}
+}  */
 
 /* 
 nav {

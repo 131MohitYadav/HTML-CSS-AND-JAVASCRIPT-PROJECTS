@@ -347,11 +347,11 @@ p {
    background-color: black;
    width: 40%;
    padding: 30px;
-   margin: 20px;
+   
    border-radius: 8px;
    font-style: lucida 5px solid;
-   margin-left: 980px;
-   margin-right: 0px;
+   float: right;
+   margin-right: 50px;
    margin-top: -365px;
 }
 

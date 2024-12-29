@@ -350,7 +350,7 @@ p {
    margin: 20px;
    border-radius: 8px;
    font-style: lucida 5px solid;
-   margin-left: 700px;
+   margin-left: 980px;
    margin-right: 0px;
    margin-top: -365px;
 }
@@ -1326,7 +1326,7 @@ button:hover {
 .progress-container1 {
    display: flex;
    justify-content: space-around;
-   margin: 50px;
+   margin: 10px;
    padding: 60px;
    background-color: #f8cf91;
    border-radius: 20px;

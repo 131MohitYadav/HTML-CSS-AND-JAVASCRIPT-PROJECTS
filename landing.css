@@ -342,14 +342,16 @@ p {
 }
 
 .progress-bar {
+   
+   
    background-color: black;
    width: 40%;
    padding: 30px;
    margin: 20px;
    border-radius: 8px;
    font-style: lucida 5px solid;
-   margin-left: 980px;
-   margin-right: -1000px;
+   margin-left: 700px;
+   margin-right: 0px;
    margin-top: -365px;
 }
 

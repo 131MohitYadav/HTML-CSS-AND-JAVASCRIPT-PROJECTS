@@ -1,6 +1,6 @@
 // use shortcut way
 
-const { jsx } = require("react/jsx-runtime");
+// const { jsx } = require("react/jsx-runtime");
 
 const $ = (id) => document.getElementById(id);
 
@@ -12,6 +12,7 @@ function getUsers(){
 
 function saveUsers(users){
     localStorage.setItem("users", JSON.stringify(users));
+}
 
     // switch pages
 
@@ -103,6 +104,7 @@ function saveUsers(users){
  let saved = JSON.parse(localStorage.getItem("loggedUser"));
  if(saved){
     $("authWrapper").style.display = "none";
-    
+    $("dashboard").style.display = "block";
+    $("dash-user").innerText = saved.username;
+    $("dash-email").innerText = saved.email;
  }
-}

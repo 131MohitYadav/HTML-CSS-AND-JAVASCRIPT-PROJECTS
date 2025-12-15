@@ -1,5 +1,7 @@
 // use shortcut way
 
+const { jsx } = require("react/jsx-runtime");
+
 const $ = (id) => document.getElementById(id);
 
 // get and save users
@@ -66,7 +68,41 @@ function saveUsers(users){
 
         let users = getUsers();
 
-        
+        let user = users.find(
+            u => u.email === input || u.username === input
+        );
 
-    }
+        if (!user){
+            $("login-error").innerText = "Uses not found";
+            return;
+        }
+
+        if(user.pass != pass){
+            $("login-error").innerText = "Wrong password";
+            return;
+        }
+
+        // success 
+        $("authWrapper").style.display = "none";
+        $("dashboard").style.display = "block";
+        $("dash-user").innerText = user.username;
+        $("dash-email").innerText = user.email;
+
+        localStorage.setItem("loggedUser", JSON.stringify(user));
+
+ };
+
+ // Logout 
+ $("logoutBtn").onclick = () => {
+    localStorage.removeItem("loggedUser");
+    $("dashboard").style.display = "none";
+    $("authWrapper").style.display = "flex";
+ };
+
+ // auto login
+ let saved = JSON.parse(localStorage.getItem("loggedUser"));
+ if(saved){
+    $("authWrapper").style.display = "none";
+    
+ }
 }

@@ -12,14 +12,36 @@
 
 
         <div class="card_131" id="loginCard">
-            <h2>Login</h2>
+            <h2>Login Here</h2>
             <p class="error_131" id="login-error"></p>
 
             <form id="loginForm">
                 <input type="text" id="login-identifier" placeholder="Email or Username" required>
                 <input type="password" id="login-pass" placeholder="Password" required>
+                <button class="btn_131">Login</button>
+            </form>
+            <p class="switch_131">
+                New user?
+                <button class="link_131" id="toSignupBtn">Create account</button>
+            </p>
+        </div>
+
+        <div class="card_131" id="signupCard" style="display:none">
+            <h2>Sign Up</h2>
+            <p class="error_131" id="signup-error"></p>
+
+            <form id="signupForm">
+                <input type="email" id="signup-email"
+                placeholder="Email" required>
+                <input type="text" id="signup-username" placeholder="Username" required>
+                <input type="password" id="signup-pass" placeholder="Password" required>
+                <input type="password" id="signup-confirm" placeholder="confirm Password" required>
+
+                <button class="btn_131">Create Account</button>
             </form>
         </div>
+
+
     </div>
     
 </body>

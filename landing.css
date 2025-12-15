@@ -1836,5 +1836,31 @@ input[type="radio"] {
 
 
 
-/* login and signup css /*
+/* login and signup page css */
+
+.container_131{
+   display: flex;
+   justify-content: center;
+   margin: 60px;
+}
+
+.card_131 {
+   background: rgb(230, 218, 218);
+   width: 320px;
+   padding: 20px; 
+   border-radius: 8px;
+   box-shadow: 0 0 15px rgba(0,0,0,0.1);
+   
+}
+
+.card_131 h2{
+   text-align: center;
+   color: #6d28d9;
+}
+
+input {
+   width: 100%;
+   padding: 10px;
+   margin-top: 10px;
+}
 

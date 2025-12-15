@@ -1846,7 +1846,7 @@ input[type="radio"] {
 
 .card_131 {
    background: rgb(230, 218, 218);
-   width: 320px;
+   width: 420px;
    padding: 20px; 
    border-radius: 8px;
    box-shadow: 0 0 15px rgba(0,0,0,0.1);
@@ -1864,3 +1864,45 @@ input {
    margin-top: 10px;
 }
 
+.btn_131{
+   width: 100%;
+   margin-top: 15px;
+   padding: 10px;
+   background: #6d28d9;
+   color: white;
+   border: none;
+   cursor: pointer;
+}
+.btn_131:hover{
+   background: #5b21b6;
+   
+}
+
+.switch_131{
+   text-align:center;
+   margin-top: 10px;
+}
+
+.link_131{
+   background: none;
+   border: none;
+   color: #6d28d9;
+   cursor: pointer;
+   font-weight: bold;
+
+}
+
+.link_131:hover{
+   color: white;
+}
+
+.error_131{
+   color: red;
+   font-size: 14px;
+   text-align: center;
+}
+
+.dashboard_131{
+   text-align: center;
+   margin-top: 80px;
+}
